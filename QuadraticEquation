@@ -1,0 +1,15 @@
+//פתרון משוואה ריבועית 
+ #include <stdio.h>
+
+  #include <math.h>
+
+  void main() {
+    float a, b, c, result_1, result_2;
+    printf("Enter a square equation:");
+    scanf("%f %f %f", & a, & b, & c);
+
+    result_1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+    result_2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
+    printf("Answers=%f\n%f", result_1, result_2);
+
+  }
